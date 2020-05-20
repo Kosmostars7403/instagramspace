@@ -10,6 +10,7 @@ venv/
 insta_images/
 images/
 config/
+.DS_Store
 
 # C extensions
 *.so
