@@ -9,6 +9,7 @@ __pycache__/
 venv/
 insta_images/
 images/
+config/
 
 # C extensions
 *.so
