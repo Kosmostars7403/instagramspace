@@ -5,8 +5,8 @@ from PIL import Image
 from dotenv import load_dotenv
 
 def get_name(path):
-    split_path = (path.replace('/', '.')).split('.')
-    return split_path[-2]
+    divided_path = (path.replace('/', '.')).split('.')
+    return divided_path[-2]
 
 def create_instagram_thumbnail(filename):
     name = get_name(filename)
